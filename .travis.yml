@@ -1,0 +1,12 @@
+language: java
+jdk:
+ - oraclejdk8
+
+notifications:
+ email:
+   recipients:
+    - travis-ci.org-part-detacher@hohenegger.eu
+   on_success: change
+   on_failure: always
+
+
